@@ -1,6 +1,69 @@
+html{
+	font: 10px/10px tahoma, Helvetica, sans-serif;
+}
+
 body {
 	margin: 0;
-	color: #000;
-	font: 14px/18px "Trebuchet MS", Helvetica, sans-serif;
-	background: #091319 url(../img/body-bg.jpg) no-repeat 50% 0;
+	font: 1.2rem/1.8rem tahoma, Helvetica, sans-serif;
 }
+.wrapper{
+	max-width: 982px;
+	margin: 0 auto;
+}
+.logo{
+	color: rgb(36,182,226);
+	font: 4.8rem/2.2rem BauhausLightCTT, Helvetica, sans-serif;
+	line-height: 107px;
+	display: block;
+	float: left;
+}
+.logo>p{
+	margin: 0;
+}
+
+.phone{
+	width: 146px;
+	display: block;
+	float: right;
+	font: 1.7rem/2.2rem Arial, Helvetica, sans-serif;
+}
+.phone>img{
+	display: block;
+	float: left;
+	margin-top: 42px;
+	margin-right: 10px;
+}
+.phone>p{
+	display: block;
+	float: left;
+	margin: 47px 0;
+}
+.navbar{
+	background-color: rgb(241,241,241);
+	max-width: auto;
+	padding: 0;
+	margin: 0;
+	display: block;
+	float: left;
+	width: 100%;
+}
+.navbar>li{
+	display: inline-flex;
+	font: 1.5rem/2.2rem Arial, sans-serif;
+	width: 19.6%;
+	text-align: center;
+}
+.navbar>li:first-child>a{
+	margin-left: 0;
+}
+
+.navbar>li:last-child>a{
+	margin-right: 0;
+}
+
+.navbar>li>a{
+	text-decoration: none;
+	color: rgb(76,76,76);
+	margin: 0 auto;	
+}
+
