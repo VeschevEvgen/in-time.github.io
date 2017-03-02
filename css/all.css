@@ -78,7 +78,7 @@ h4{
 .navbar li{
 	display: inline-flex;
 	font: 1.5rem/2.2rem Arial, sans-serif;
-	width: 16.3%;
+	width: 16.2%;
 	text-align: center;
 	padding: 10px 0;
 }
@@ -136,8 +136,11 @@ h4{
 	display: block;
 	float: left;
 	margin-top: 20px;
-	width: 697px;
+	width: 71%;
 	text-align: justify;
+}
+.mainBlock img{
+	width: 100%;
 }
 .contentH3 ul{
 	list-style-image: url(../img/list-image.jpg); 
@@ -254,6 +257,7 @@ tr:nth-child(even){
 	float: right;
 	width: 235px;
 	margin-top: 30px;
+	float: right;
 }
 .standartInput{
 	width: 235px;
@@ -296,6 +300,8 @@ a.btn {
 	background: #24b5e1;
 	color: white;
 }
+.subs{
+}
 .footer{
 	display: block;
 	float: left;
@@ -318,4 +324,12 @@ a.btn {
 }
 .soc:hover{
 	background-color:#24b6e2;;
+}
+
+/*------------------NEWS----------------*/
+.fullscreen{
+	width: 100%
+}
+.fullscreen>img{
+	width: 100%;
 }
