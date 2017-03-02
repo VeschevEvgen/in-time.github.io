@@ -10,7 +10,7 @@ body {
 	box-sizing: border-box;
 }
 .wrapper{
-	max-width: 982px;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 
@@ -252,10 +252,15 @@ tr:nth-child(even){
 }
 /*-------------------Вторая колонка--------------------*/
 
+.rightWrapper{
+	display: block;
+	float: right;
+	width: 24%;
+}
  .rightBlock {
 	display: block;
 	float: right;
-	width: 235px;
+	/*width: 235px;*/
 	margin-top: 30px;
 	float: right;
 }
